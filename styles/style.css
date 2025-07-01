@@ -1,0 +1,125 @@
+/*  Color Palette: #1f00ff #8979ff #ff6f00 #ff5a00    */
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    background: white;
+}
+#wrapper {
+    width: 90%;
+    margin: auto;
+    background: #f6f6f6;
+    box-shadow: #404040 1px 1px 5px
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    padding: 26px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo {
+    box-sizing: border-box;
+    grid-column: 1/2;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+table {
+    grid-column: 3/4;
+    background: #1f00ff;
+    border: #000000 solid 3px;
+    height: 100%;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+}
+
+th {
+    box-sizing: border-box;
+    font-size: 2.6vw;
+    text-align: center;
+    height: 70%;
+    min-height: 60px;
+    align-self: center;
+    align-content: center;
+}
+
+th:nth-child(2) {
+    border-left: black solid 3px;
+    border-right: black solid 3px;
+}
+
+a {
+    text-decoration: None;
+    color: #ff5a00;
+    text-shadow: #404040 2px 2px 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+th:hover {
+    background: #6d5dea;
+}
+
+.selected {
+    background: #8979ff;
+}
+main {
+    display: grid;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3.0vw;
+    align-content: center;
+    grid-column: 1/3;
+    color: #ff5a00;
+    text-shadow: #404040 2px 2px 5px;
+}
+
+h3 {
+    background-image: url("../images/math.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    grid-column: 3/4;
+    font-size: 2.0vw;
+    color:#ff5a00;
+    width: 18vw;
+    height: 12vw;
+    align-content: center;
+    padding: 30px;
+}
+
+#border {
+    width: 100%;
+    border-bottom: #191919 solid 6px;
+    grid-area: 2/1/2/4;
+    margin-bottom: 30px;
+}
+section {
+    grid-area: 3/1/3/4;
+    background: #8979ff;
+    padding: 30px;
+    font-size: 20px;
+    box-shadow:#404040 2px 2px 5px;
+}
+section h2 {
+    text-align: left;
+    font-size: 2.0vw;
+    color:#ff5a00;
+    text-shadow: #404040 2px 2px 5px;
+}
