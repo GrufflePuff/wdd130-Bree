@@ -98,8 +98,8 @@ h3 {
     grid-column: 3/4;
     font-size: 2.0vw;
     color:#ff5a00;
-    width: 18vw;
-    height: 12vw;
+    width: 15vw;
+    height: 10vw;
     align-content: center;
     padding: 30px;
 }
@@ -117,6 +117,8 @@ section {
     padding: 30px;
     font-size: 20px;
     box-shadow:#404040 2px 2px 5px;
+    width: 80%;
+    margin: auto;
 }
 
 section h2 {
@@ -130,6 +132,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 60px;
+    background:#8979ff ;
 }
 
 footer h4 {
