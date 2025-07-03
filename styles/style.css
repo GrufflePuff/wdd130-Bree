@@ -108,8 +108,9 @@ h3 {
     width: 100%;
     border-bottom: #191919 solid 6px;
     grid-area: 2/1/2/4;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
+
 section {
     grid-area: 3/1/3/4;
     background: #8979ff;
@@ -117,9 +118,25 @@ section {
     font-size: 20px;
     box-shadow:#404040 2px 2px 5px;
 }
+
 section h2 {
     text-align: left;
     font-size: 2.0vw;
     color:#ff5a00;
     text-shadow: #404040 2px 2px 5px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 60px;
+}
+
+footer h4 {
+    grid-column: 1/2;
+    font-size: 20px;
+    text-align: center;
+}
+footer table {
+    grid-column: 2/5;
 }
