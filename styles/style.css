@@ -104,6 +104,15 @@ h3 {
     padding: 30px;
 }
 
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-size: 1.0vw;
+    color:#963805;
+}
+
 #border {
     width: 100%;
     border-bottom: #191919 solid 6px;
@@ -121,11 +130,38 @@ section {
     margin: auto;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
 section h2 {
     text-align: left;
     font-size: 2.0vw;
     color:#ff5a00;
     text-shadow: #404040 2px 2px 5px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    text-align: center;
+}
+
+.card p {
+    margin: 10px 15px auto 15px;
+}
+
+.card img {
+    width: 75%;
+    margin: auto auto 20px auto;
 }
 
 footer {
